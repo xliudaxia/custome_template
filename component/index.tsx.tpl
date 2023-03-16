@@ -1,4 +1,4 @@
-import {{{compName}}} from './{{{compName}}}'
+import {{ compName }} from './{{ compName }}'
 
-export default {{{compName}}}
-export * from './{{{compName}}}'
+export default {{ compName }}
+export * from './{{ compName }}'
