@@ -1,7 +1,7 @@
 import React, { FC, useState } from 'react';
 import SubPage from './component/SubPage';
 import styles from './index.less';
-import { usePrevious } from './utils/hook.ts.tpl';
+import { usePrevious } from './utils/hook';
 
 interface {{ compName }}Props {
   name: 'default';

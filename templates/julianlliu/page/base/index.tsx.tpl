@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './{{ compName }}.less';
+import styles from './index.less';
 
  const  {{ compName }} = () =>  {
   return (
