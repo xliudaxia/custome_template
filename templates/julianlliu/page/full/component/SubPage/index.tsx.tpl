@@ -1,5 +1,5 @@
 import React, { FC } from 'react';
-import styles from './index.less';
+import './index.less';
 
 interface SubPageProps {
   name: 'default';
@@ -8,7 +8,7 @@ interface SubPageProps {
 const SubPage: FC<SubPageProps> = props => {
   const { name } = props;
   return (
-    <div className={styles.title}>
+    <div className='auto-generator-color'>
       This is template content,just remove it ~!
       {name}
     </div>

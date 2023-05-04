@@ -1,4 +1,4 @@
-import { isTCE } from '@src/utils/tool';
+import { isTCE } from '@src/utils/version';
 
 /**
  * #TCE 版本差异处理

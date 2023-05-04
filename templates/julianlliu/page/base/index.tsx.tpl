@@ -1,7 +1,7 @@
 import React, { FC } from 'react';
 import ConfirmDom from '@src/components/ConfirmDom';
 import { t } from '@tencent/tea-app/lib/i18n';
-import styles from './index.less';
+import './index.less';
 
 interface {{ compName }}Props {
   visible: boolean;
